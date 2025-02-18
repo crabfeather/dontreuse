@@ -13,8 +13,3 @@ The tool is built to work with below format, but feel free to customize the rege
 ./doNTreuse.sh ./hashes.txt ./admins.txt
 ```
 Where "hashes.txt" is a list all hashes (one per line), and "admins.txt" is a list of all adminstrators (one per line).
-
-### Contact:
-Allan Edh\
-Cybersecurity Consultant\
-allan.edh@gmail.com
