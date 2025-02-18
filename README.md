@@ -1,7 +1,7 @@
 # doNTreuse
 
 ### Description:
-doNTreuse.sh is a simple Bash script for examining the extent of NT hash reuse from the result of Impacket's secretsdump.py. This is done by parsing all hashes, outputting groups separated by a delimiter containing all users who share the same password, and highlighting all administrator accounts.<br/>
+doNTreuse.sh is a simple Bash script for examining the extent of NT hash reuse from the result of Impacket's secretsdump.py. This is done by parsing the hashes, outputting groups separated by a delimiter containing all users who share the same password, and highlighting any administrators.<br/>
 
 The tool is built to work with below format, but feel free to customize the regex for your needs.
 ```
